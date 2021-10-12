@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'The Historia Demo';
+    font-weight: normal !important;
+    font-display: swap;
+    src: url('fonts/TheHistoriaDemo.eot');
+    src: url('fonts/TheHistoriaDemo.eot?#iefix') format('embedded-opentype'), url('fonts/TheHistoriaDemo.woff2') format('woff2'), url('fonts/TheHistoriaDemo.woff') format('woff'), url('fonts/TheHistoriaDemo.ttf') format('truetype'), url('fonts/TheHistoriaDemo.svg#The Historia Demo') format('svg');
+}
