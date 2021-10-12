@@ -1,0 +1,187 @@
+.loginHolder .loginTabHolder a {
+  height: 70px;
+  line-height: 70px;
+  font-weight: 500;
+  color: #CCC;
+  font-size: 16px;
+  position: relative;
+  transition: all 0.1s;
+  display: inline-block;
+  margin-right: 50px;
+}
+.loginHolder .loginTabHolder a:hover {
+  text-decoration: none;
+}
+.loginHolder .loginTabHolder a:after {
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  right: 0;
+  background: #CCC;
+  border-radius: 100px;
+  transition: all 0.1s;
+  content: "";
+}
+.loginHolder .loginTabHolder a.active {
+  color: #000;
+  font-size: 20px;
+}
+.loginHolder .loginTabHolder a.active:after {
+  background: #000;
+  height: 4px;
+}
+.loginHolder .loginTabContent {
+  padding-top: 25px;
+}
+.loginHolder .loginTabContent .orDivider {
+  text-align: center;
+  font-style: italic;
+  color: #AAA;
+  margin: 15px 0;
+}
+.loginHolder .loginTabContent .btn {
+  font-size: 18px;
+  padding: 17px 0;
+  font-weight: 600;
+}
+.loginHolder .loginTabContent .socialLogin {
+  margin: 0 -5px;
+}
+.loginHolder .loginTabContent .socialLogin .col-sm-6 {
+  padding: 0 5px;
+}
+.loginHolder .loginTabContent .socialLogin .col-sm-6 .btn {
+  font-size: 14px;
+  padding: 15px 0;
+  margin-bottom: 10px;
+  position: relative;
+}
+.loginHolder .loginTabContent .socialLogin .col-sm-6 .btn img {
+  position: absolute;
+  left: 0;
+  height: 18px;
+  left: 20px;
+  top: 17px;
+}
+.loginHolder .loginTabContent .otpStep1 {
+  display: block;
+}
+.loginHolder .loginTabContent .otpStep2 {
+  display: none;
+}
+.loginHolder .loginTabContent .otpStep3 {
+  display: none;
+}
+.loginHolder .loginTabContent .otpMoreOpt a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 15px;
+  color: #444;
+  font-weight: 500;
+}
+.loginHolder .loginTabContent .otpMoreOpt a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .loginHolder .loginTabHolder a {
+    height: 40px !important;
+    line-height: 40px;
+    margin-right: 25px;
+  }
+  .loginHolder .loginTabContent .btn {
+    font-size: 14px;
+    padding: 10px 0;
+    font-weight: 600;
+  }
+  .loginHolder .loginTabContent .socialLogin .col-sm-6 .btn {
+    padding: 5px 0 !important;
+    font-size: 14px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .loginHolder .loginTabContent .socialLogin .col-sm-6 .btn img {
+    top: 7px;
+    left: 15px;
+  }
+}
+.termCondLink {
+  color: #2898ed !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  transition: all 0.3s ease;
+}
+.termCondLink:hover {
+  color: #0966ad !important;
+}
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 17px;
+  margin-top: 6px;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2898ed;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

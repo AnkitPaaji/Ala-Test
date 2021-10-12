@@ -1,0 +1,852 @@
+.homeContent {
+  background-size: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.homeContent .homeBanner {
+  border-radius: 0px;
+  border: none;
+  overflow: hidden;
+  margin-top: 15px;
+  background: #FFF;
+  overflow: hidden;
+  position: relative;
+}
+.homeContent .homeBanner:before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #EEE;
+  animation: bannerLoader 0.5s infinite;
+}
+@keyframes bannerLoader {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.homeContent .homeBanner owl-carousel .item img {
+  width: 100%;
+}
+@media screen and (max-width: 580px) {
+  .homeContent .homeBanner owl-carousel .item img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 440px) {
+  .homeContent .homeBanner owl-carousel .item img {
+    width: 100%;
+  }
+}
+.homeContent .homeBanner owl-carousel owl-carousel-child {
+  margin: 0;
+}
+.homeContent .homeCategories {
+  margin-top: 40px;
+}
+.homeContent .homeCategories .homeCategoriesCol {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.homeContent .homeCategories .homecategoryItem {
+  margin-bottom: 15px;
+  position: relative;
+  display: block;
+  transition: all 0.2s;
+  border-radius: 15px;
+  background: #FFF;
+}
+@media screen and (max-width: 768px) {
+  .homeContent .homeCategories .homecategoryItem {
+    margin-bottom: 10px;
+  }
+}
+.homeContent .homeCategories .homecategoryItem:hover {
+  transform: scale(1.05);
+}
+.homeContent .homeCategories .homecategoryItem .homecategoryItemInner {
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  border: 5px rgba(209, 235, 241, 0.83) solid;
+  box-shadow: 0 0 19px 0px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  position: relative;
+  height: 200px;
+}
+@media screen and (max-width: 1200px) {
+  .homeContent .homeCategories .homecategoryItem .homecategoryItemInner {
+    height: 210px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .homeContent .homeCategories .homecategoryItem .homecategoryItemInner {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .homeContent .homeCategories .homecategoryItem .homecategoryItemInner {
+    height: 210px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .homeContent .homeCategories .homecategoryItem .homecategoryItemInner {
+    height: 170px;
+  }
+}
+.homeContent .homeCategories .homecategoryItem span {
+  position: absolute;
+  left: 5px;
+  bottom: 20px;
+  color: #FFF;
+  font-weight: bold;
+  padding: 13px 20px;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 13px;
+  z-index: 2;
+}
+.homeContent .homeCategories .homecategoryItem span:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -5px;
+  width: 5px;
+  display: inline-block;
+  background: #2b98ed;
+}
+.homeContent .homeCategories .homecategoryItemCustom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.homeContent .homeCategories .homecategoryItemCustom .homecategoryItemInner {
+  width: 100%;
+}
+.homeContent .homeCategories .homecategoryItemCustom span {
+  position: absolute;
+  left: unset !important;
+  bottom: 5px;
+  color: #FFF;
+  font-weight: bold;
+  padding: 5px 16px;
+  background: rgba(19, 138, 230, 0.84);
+  font-size: 13px;
+  z-index: 2;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .homeContent .homeCategories .homecategoryItemCustom span {
+    bottom: 0;
+  }
+}
+.homeContent .homeCategories .homecategoryItemCustom span:after {
+  content: "";
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .homeContent .homeBanner {
+    border-radius: 0;
+    border: none;
+    margin-top: 6px;
+  }
+
+  .homeContent .homeCategories {
+    margin-top: 10px !important;
+  }
+  .homeContent .homeCategories .row {
+    margin: 0 -5px;
+  }
+  .homeContent .homeCategories .row > div {
+    padding: 0 5px;
+  }
+  .homeContent .homeCategories .homecategoryItem .homecategoryItemInner {
+    height: 150px;
+    border-radius: 7px;
+    border: 0px rgba(209, 235, 241, 0.83) solid;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 768px) {
+  .homeContent .homeCategories .homecategoryItem .homecategoryItemInner {
+    height: 120px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .homeContent .homeCategories .homecategoryItem span {
+    left: 0;
+    padding: 9px 6px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .homeContent .homeCategories {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .prListHeader img {
+    height: 30px;
+    position: relative;
+    top: -4px;
+  }
+}
+.headerNav .searchSubmit {
+  background-size: 35%;
+}
+
+.DeliveryAvailableModalOverlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1001;
+  display: none;
+}
+
+.DeliveryAvailableModal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+  z-index: 1002;
+  display: none;
+}
+.DeliveryAvailableModal .timeSlotInner {
+  width: 800px;
+  display: inline-block;
+  max-width: 95%;
+  position: relative;
+  max-height: 99vh;
+  overflow: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryAvail {
+  position: absolute;
+  right: 8px;
+  top: 0px;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryAvail img {
+  height: 15px;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent {
+  background: #FFF;
+  text-align: left;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 50px;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .timeSlotHeader {
+  color: #444;
+  font-size: 18px;
+  padding: 20px;
+  font-weight: 500;
+  position: relative;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .timeSlotHeader h2 {
+  font-size: 24px;
+  line-height: 46px;
+  margin-bottom: 0;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .timeSlotPostalInputHolder {
+  float: right;
+  width: 53%;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .timeSlotPostalInputHolder label {
+  font-size: 18px;
+  color: #138ae6;
+  text-align: left;
+  display: inline-block;
+  line-height: 47px;
+  margin-bottom: 0;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .timeSlotPostalInputHolder .timeSlotPostalInput {
+  float: right;
+  height: 45px;
+  width: 290px;
+  border-radius: 100px;
+  border: 1px #DDD solid;
+  text-indent: 15px;
+  background-color: #f9f9f9;
+  display: inline-block;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .DeliveryBannertImg {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .selectLocationCitiesHolder {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .selectLocationCitiesHolder a {
+  display: inline-block;
+  padding: 3px 11px;
+  border: 1px #DDD solid;
+  color: #555;
+  border-radius: 100px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .selectLocationCitiesHolder a:hover {
+  text-decoration: none;
+  border-color: #138ae6;
+  color: #138ae6;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .selectLocationCitiesHolder a.active {
+  background: #138ae6;
+  color: #FFF;
+  border-color: #138ae6;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .locationInputHolder {
+  position: relative;
+  padding: 20px;
+  padding-right: 220px;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .locationInputHolder img {
+  position: absolute;
+  height: 15px;
+  top: 38px;
+  left: 39px;
+  opacity: 0.5;
+  z-index: 10000;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .locationInputHolder .locationInput {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border-radius: 100px;
+  border: 1px #DDD solid;
+  text-indent: 50px;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .locationInputHolder .locationInput:focus {
+  outline: none;
+  border-color: #AAA;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .selectLocationInput {
+  position: relative;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .getGPS {
+  position: absolute;
+  right: 20px;
+  background: #FAFAFA;
+  height: 50px;
+  display: inline-block;
+  width: 180px;
+  line-height: 50px;
+  top: 20px;
+  border-radius: 100px;
+  text-align: center;
+  color: #555;
+  font-weight: 500;
+  border: 1px #DDD solid;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .getGPS:hover {
+  text-decoration: none;
+  border-color: #BBB;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .getGPS img {
+  height: 14px;
+  display: inline-block;
+  vertical-align: center;
+  position: relative;
+  top: -1px;
+  margin-right: 5px;
+}
+
+.DeliveryAvailableModalOverlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1001;
+  display: none;
+}
+
+.DeliveryAvailableModal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+  z-index: 1002;
+  display: none;
+}
+.DeliveryAvailableModal .timeSlotInner {
+  width: 800px;
+  display: inline-block;
+  max-width: 95%;
+  position: relative;
+  max-height: 99vh;
+  overflow: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryAvail {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryAvail img {
+  height: 15px;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent {
+  background: #FFF;
+  text-align: left;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 50px;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .timeSlotHeader {
+  color: #444;
+  font-size: 18px;
+  padding: 20px;
+  font-weight: 500;
+  position: relative;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .timeSlotHeader h2 {
+  font-size: 24px;
+  line-height: 46px;
+  margin-bottom: 0;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .timeSlotPostalInputHolder {
+  float: right;
+  width: 53%;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .timeSlotPostalInputHolder label {
+  font-size: 18px;
+  color: #138ae6;
+  text-align: left;
+  display: inline-block;
+  line-height: 47px;
+  margin-bottom: 0;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .timeSlotPostalInputHolder .timeSlotPostalInput {
+  float: right;
+  height: 45px;
+  width: 290px;
+  border-radius: 100px;
+  border: 1px #DDD solid;
+  text-indent: 15px;
+  background-color: #f9f9f9;
+  display: inline-block;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .DeliveryBannertImg {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .selectLocationCitiesHolder {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .selectLocationCitiesHolder a {
+  display: inline-block;
+  padding: 3px 11px;
+  border: 1px #DDD solid;
+  color: #555;
+  border-radius: 100px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .selectLocationCitiesHolder a:hover {
+  text-decoration: none;
+  border-color: #138ae6;
+  color: #138ae6;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .selectLocationCitiesHolder a.active {
+  background: #138ae6;
+  color: #FFF;
+  border-color: #138ae6;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .locationInputHolder {
+  position: relative;
+  padding: 20px;
+  padding-right: 220px;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .locationInputHolder img {
+  position: absolute;
+  height: 15px;
+  top: 38px;
+  left: 39px;
+  opacity: 0.5;
+  z-index: 10000;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .locationInputHolder .locationInput {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border-radius: 100px;
+  border: 1px #DDD solid;
+  text-indent: 50px;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .locationInputHolder .locationInput:focus {
+  outline: none;
+  border-color: #AAA;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .selectLocationInput {
+  position: relative;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .getGPS {
+  position: absolute;
+  right: 20px;
+  background: #FAFAFA;
+  height: 50px;
+  display: inline-block;
+  width: 180px;
+  line-height: 50px;
+  top: 20px;
+  border-radius: 100px;
+  text-align: center;
+  color: #555;
+  font-weight: 500;
+  border: 1px #DDD solid;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .getGPS:hover {
+  text-decoration: none;
+  border-color: #BBB;
+}
+.DeliveryAvailableModal .timeSlotInner .DeliveryContent .getGPS img {
+  height: 14px;
+  display: inline-block;
+  vertical-align: center;
+  position: relative;
+  top: -1px;
+  margin-right: 5px;
+}
+
+.prInfoPointsHolder {
+  margin: -5px 0 10px;
+}
+.prInfoPointsHolder h4 {
+  font-size: 17px;
+}
+.prInfoPointsHolder p {
+  font-size: 13px;
+}
+.prInfoPointsHolder div {
+  margin-left: 35px;
+  position: relative;
+  padding: 5px 0;
+  color: #888;
+}
+.prInfoPointsHolder div:after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: -32px;
+  top: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("../../../assets/images/icons/check-symbol.svg");
+}
+
+.delHeader {
+  font-size: 24px;
+}
+
+.delSubHead {
+  font-size: 18px;
+}
+
+.deliveruSlotHead {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.deliveruSlotHead .tagName {
+  text-align: left;
+  margin-right: 10px;
+}
+.deliveruSlotHead .orderBfr {
+  font-size: 14px;
+  color: #777777;
+  line-height: 15px;
+  margin-bottom: 2px;
+  vertical-align: super;
+  display: inline-block;
+}
+.deliveruSlotHead .dlvrSltHead {
+  font-size: 18px;
+  color: #000000;
+  line-height: 15px;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+.deliveruSlotHead .slotTime {
+  text-align: left;
+  margin-right: 10px;
+  line-height: 10px;
+}
+.deliveruSlotHead .slotTime:last-child {
+  margin-right: 0;
+}
+.deliveruSlotHead .slotTime span {
+  font-size: 15px;
+  color: #ffab44;
+  font-weight: 600;
+  line-height: 12px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.deliveruSlotHead .slotTime .timeHolder {
+  padding: 9px 6px;
+  border: 1px solid #c9e8cd;
+  background-color: #f8fff9;
+  color: #5bb167;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.slotChartModalOverlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1001;
+  display: none;
+}
+
+.slotChartModal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+  z-index: 1002;
+  display: none;
+}
+.slotChartModal .timeSlotInner {
+  width: 1000px;
+  display: inline-block;
+  max-width: 95%;
+  position: relative;
+  max-height: 99vh;
+  overflow: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.slotChartModal .timeSlotInner .DeliveryAvail {
+  position: absolute;
+  right: 15px;
+  top: 0px;
+}
+.slotChartModal .timeSlotInner .DeliveryAvail img {
+  height: 15px;
+}
+.slotChartModal .timeSlotInner .DeliveryContent {
+  background: #FFF;
+  text-align: left;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 28px;
+}
+.slotChartModal .timeSlotInner .DeliveryContent .timeSlotHeader {
+  color: #444;
+  font-size: 18px;
+  padding: 20px;
+  font-weight: 500;
+  position: relative;
+}
+.slotChartModal .timeSlotInner .DeliveryContent .timeSlotHeader h2 {
+  font-size: 24px;
+  line-height: 46px;
+  margin-bottom: 0;
+}
+.slotChartModal .timeSlotInner .DeliveryContent .timeSlotPostalInputHolder {
+  float: right;
+  width: 53%;
+}
+.slotChartModal .timeSlotInner .DeliveryContent .timeSlotPostalInputHolder label {
+  font-size: 18px;
+  color: #138ae6;
+  text-align: left;
+  display: inline-block;
+  line-height: 47px;
+  margin-bottom: 0;
+}
+.slotChartModal .timeSlotInner .DeliveryContent .timeSlotPostalInputHolder .timeSlotPostalInput {
+  float: right;
+  height: 45px;
+  width: 290px;
+  border-radius: 100px;
+  border: 1px #DDD solid;
+  text-indent: 15px;
+  background-color: #f9f9f9;
+  display: inline-block;
+}
+.slotChartModal .timeSlotInner .DeliveryContent .DeliveryBannertImg {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.slotChartModal .timeSlotInner .DeliveryContent .selectLocationCitiesHolder {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.slotChartModal .timeSlotInner .DeliveryContent .selectLocationCitiesHolder a {
+  display: inline-block;
+  padding: 3px 11px;
+  border: 1px #DDD solid;
+  color: #555;
+  border-radius: 100px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.slotChartModal .timeSlotInner .DeliveryContent .selectLocationCitiesHolder a:hover {
+  text-decoration: none;
+  border-color: #138ae6;
+  color: #138ae6;
+}
+.slotChartModal .timeSlotInner .DeliveryContent .selectLocationCitiesHolder a.active {
+  background: #138ae6;
+  color: #FFF;
+  border-color: #138ae6;
+}
+.slotChartModal .timeSlotInner .DeliveryContent .locationInputHolder {
+  position: relative;
+  padding: 20px;
+  padding-right: 220px;
+}
+.slotChartModal .timeSlotInner .DeliveryContent .locationInputHolder img {
+  position: absolute;
+  height: 15px;
+  top: 38px;
+  left: 39px;
+  opacity: 0.5;
+  z-index: 10000;
+}
+.slotChartModal .timeSlotInner .DeliveryContent .locationInputHolder .locationInput {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border-radius: 100px;
+  border: 1px #DDD solid;
+  text-indent: 50px;
+}
+.slotChartModal .timeSlotInner .DeliveryContent .locationInputHolder .locationInput:focus {
+  outline: none;
+  border-color: #AAA;
+}
+.slotChartModal .timeSlotInner .DeliveryContent .selectLocationInput {
+  position: relative;
+}
+.slotChartModal .timeSlotInner .DeliveryContent .getGPS {
+  position: absolute;
+  right: 20px;
+  background: #FAFAFA;
+  height: 50px;
+  display: inline-block;
+  width: 180px;
+  line-height: 50px;
+  top: 20px;
+  border-radius: 100px;
+  text-align: center;
+  color: #555;
+  font-weight: 500;
+  border: 1px #DDD solid;
+}
+.slotChartModal .timeSlotInner .DeliveryContent .getGPS:hover {
+  text-decoration: none;
+  border-color: #BBB;
+}
+.slotChartModal .timeSlotInner .DeliveryContent .getGPS img {
+  height: 14px;
+  display: inline-block;
+  vertical-align: center;
+  position: relative;
+  top: -1px;
+  margin-right: 5px;
+}
+
+.timeSlotHomeBtn {
+  position: fixed;
+  right: 0;
+  top: 220px;
+  z-index: 999;
+  color: #ffffff !important;
+  background: #138ae6 !important;
+  border-color: #2b98ed !important;
+  z-index: 999;
+}
+
+.timeSlotHomeBtn:hover {
+  color: #138ae6 !important;
+  background: #ffffff !important;
+  border-color: #2b98ed !important;
+}
+
+.rewardholder {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  width: 140px;
+  height: 70px;
+  border-radius: 20px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 17px;
+  color: #2b98ed;
+  padding: 20px;
+  border: 3px solid #2b98ed;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0px 0px 17px rgba(43, 152, 237, 0.66);
+  z-index: 100;
+  transition: all 0.2s ease;
+}
+.rewardholder:hover {
+  text-decoration: none;
+  right: 30px;
+}
+
+.rewardholder::after {
+  content: "";
+  position: absolute;
+  right: -30px;
+  bottom: 20px;
+  border-left: 15px solid #2b98ed;
+  border-right: 15px solid transparent;
+  border-bottom: 12px solid #2b98ed00;
+  border-top: 12px solid #2b98ed00;
+}

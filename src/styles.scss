@@ -1,0 +1,1332 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  overflow-x: hidden;
+  padding-top: 170px;
+  background-image: url(../src/assets/images/body_bg_fade.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: initial;
+}
+
+body.noScroll {
+  overflow: hidden;
+}
+
+.btn-primary {
+  color: #2b98ed;
+  background: #FFF;
+  border-color: #2b98ed;
+}
+.btn-primary:hover {
+  background: #138ae6;
+  color: #FFF;
+}
+
+.btn-outline-primary {
+  color: #2b98ed;
+  border-color: #2b98ed;
+}
+.btn-outline-primary:hover {
+  background: #2b98ed;
+}
+
+.btn-success {
+  background: #87d05b;
+  border-color: #87d05b;
+}
+.btn-success:hover {
+  background: #68b43a;
+}
+
+.btn {
+  border-radius: 100px;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.homeBanner .owl-carousel {
+  margin: 0;
+}
+
+.homeBanner .owl-dots {
+  margin-top: -26px !important;
+  position: relative;
+  z-index: 10;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  opacity: 0.4;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #ffffff !important;
+  opacity: 1;
+}
+
+.app-product-slider .owl-carousel {
+  margin: 0;
+}
+
+.productSlider {
+  position: relative;
+}
+.productSlider owl-carousel-child {
+  margin-left: 0;
+}
+.productSlider .owl-nav button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.productSlider .owl-nav button span {
+  font-size: 50px;
+}
+.productSlider .owl-nav button:hover {
+  background: none !important;
+  color: #000 !important;
+}
+.productSlider .owl-nav button:focus {
+  outline: none;
+}
+.productSlider .owl-nav .owl-next {
+  right: -20px;
+}
+.productSlider .owl-nav .owl-prev {
+  left: -20px;
+}
+
+.prDetLeft {
+  position: relative;
+}
+.prDetLeft .owl-nav button {
+  position: absolute;
+  top: -5px;
+  bottom: 0;
+}
+.prDetLeft .owl-nav button span {
+  font-size: 36px;
+}
+.prDetLeft .owl-nav button:hover {
+  background: none !important;
+  color: #000 !important;
+}
+.prDetLeft .owl-nav button:focus {
+  outline: none;
+}
+.prDetLeft .owl-nav .owl-next {
+  right: -20px;
+}
+.prDetLeft .owl-nav .owl-prev {
+  left: -20px;
+}
+
+.gap5 {
+  display: block;
+  height: 5px;
+}
+
+.gap10 {
+  display: block;
+  height: 10px;
+}
+
+.gap20 {
+  display: block;
+  height: 20px;
+}
+
+.gap30 {
+  display: block;
+  height: 30px;
+}
+
+.gap40 {
+  display: block;
+  height: 40px;
+}
+
+.gap50 {
+  display: block;
+  height: 50px;
+}
+
+.gap100 {
+  display: block;
+  height: 100px;
+}
+
+hr {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.noScroll {
+  overflow: hidden;
+}
+
+.filterOptHolder .ui-state-default, .filterOptHolder .ui-widget-content .ui-state-default {
+  left: 15%;
+  border-radius: 100px;
+  top: -6px;
+  border-color: #2b98ed;
+  background: #FFF;
+}
+
+.filterOptHolder .ui-state-default:focus, .filterOptHolder .ui-widget-content .ui-state-default:focus {
+  outline: none;
+}
+
+.filterOptHolder .ui-slider-horizontal .ui-slider-range {
+  background: #2b98ed;
+}
+
+.filterOptHolder .ui-slider-horizontal .ui-slider-range:focus {
+  background: #2b98ed;
+}
+
+.switch {
+  display: inline-block;
+  cursor: pointer;
+}
+.switch > span {
+  color: #2b98ed;
+  font-weight: 500;
+  margin-right: 12px;
+}
+.switch > div {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  background: #DDD;
+  border-radius: 100px;
+  position: relative;
+  top: 4px;
+  position: relative;
+  border: 1px #BBB solid;
+  transition: all 0.2s;
+}
+.switch > div:after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #FFF;
+  border-radius: 100px;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  transition: all 0.2s;
+}
+.switch > div.active {
+  background: #2b98ed;
+  border: 1px #2b98ed solid;
+}
+.switch > div.active:after {
+  background: #FFF;
+  left: 21px;
+}
+
+.prDetLeft owl-carousel-child {
+  margin: 0;
+}
+
+.recipeSliderHolder owl-carousel-child {
+  margin: 0 !important;
+}
+
+.historia {
+  font-family: "The Historia Demo";
+}
+
+.prListHeader {
+  font-size: 30px;
+  color: #000;
+  margin-bottom: -5px;
+}
+
+.grungeEdge {
+  position: relative;
+}
+.grungeEdge:before, .grungeEdge:after {
+  content: "";
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 40px;
+  background-repeat: repeat-x;
+  background-size: 50%;
+}
+.grungeEdge:before {
+  background-image: url("/assets/images/grunge-edge-top.png");
+  top: 0;
+  background-position: center top;
+}
+.grungeEdge:after {
+  background-image: url("/assets/images/grunge-edge-bottom.png");
+  bottom: 0;
+  background-position: center bottom;
+}
+
+.pageHold {
+  margin: 50px 0;
+}
+.pageHold .stepCrd {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  display: block;
+}
+@media screen and (max-width: 576px) {
+  .pageHold .stepCrd {
+    padding: 10px;
+  }
+}
+.pageHold .stepCrd .pageCrtHeader {
+  margin: 0;
+  font-size: 28px;
+}
+@media screen and (max-width: 576px) {
+  .pageHold .stepCrd .pageCrtHeader {
+    font-size: 19px;
+  }
+}
+.pageHold .stepCrd .stepLabel {
+  font-size: 25px;
+  font-weight: 600;
+  color: #CCC;
+}
+.pageHold .moveToStep {
+  cursor: pointer;
+}
+.pageHold .moveToStep:hover div {
+  color: #AAA;
+}
+
+.stepLabel {
+  font-size: 25px;
+  font-weight: 600;
+  color: #CCC;
+}
+
+.couponHolder {
+  display: block;
+  border: 1px #BBB solid;
+  border-radius: 100px;
+  height: 54px;
+  position: relative;
+}
+.couponHolder input {
+  display: inline-block;
+  height: 52px;
+  border: none;
+  background: none;
+  text-indent: 20px;
+}
+.couponHolder input:focus {
+  outline: none;
+}
+.couponHolder button {
+  display: inline-block;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  border-radius: 100px;
+  border: none;
+  height: 48px;
+  padding: 0 20px;
+  background: #2b98ed;
+  font-weight: 500;
+  color: #FFF;
+  cursor: pointer;
+}
+.couponHolder button:hover {
+  background: #138ae6;
+}
+.couponHolder button:focus {
+  outline: none;
+}
+
+.cartDetHeader {
+  font-size: 22px;
+  color: #888;
+  font-weight: 500;
+}
+
+.cartDetItem {
+  background: #efefef;
+  padding: 10px 15px 10px 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  position: relative;
+  border-left: 4px #2b98ed solid;
+}
+.cartDetItem span {
+  font-size: 14px;
+  color: #888;
+}
+.cartDetItem label {
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0;
+}
+
+.contactNumber {
+  color: #2b98ed;
+  font-weight: 500;
+}
+
+.checkoutStep .checkoutStepItem {
+  position: relative;
+  padding-left: 50px;
+  padding-bottom: 25px;
+}
+@media screen and (max-width: 576px) {
+  .checkoutStep .checkoutStepItem {
+    padding-left: 35px;
+  }
+}
+.checkoutStep .checkoutStepItem:before {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+  background: #FFF;
+  border: 10px #EEE solid;
+  position: absolute;
+  left: 0;
+  top: -3px;
+}
+@media screen and (max-width: 576px) {
+  .checkoutStep .checkoutStepItem:before {
+    width: 25px;
+    height: 25px;
+    border: 7px #EEE solid;
+  }
+}
+.checkoutStep .checkoutStepItem:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 16px;
+  width: 3px;
+  background: #EEE;
+  top: -48px;
+  border-radius: 100px;
+  height: 37px;
+}
+@media screen and (max-width: 576px) {
+  .checkoutStep .checkoutStepItem:after {
+    top: -50px;
+    left: 11px;
+  }
+}
+.checkoutStep .checkoutStepItem:first-child:after {
+  display: none;
+}
+.checkoutStep .checkoutStepItem h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 576px) {
+  .checkoutStep .checkoutStepItem h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+}
+.checkoutStep .checkoutStepItem p {
+  color: #AAA;
+  font-size: 14px;
+}
+.checkoutStep .checkoutStepItem.active:before {
+  border-color: #2b98ed;
+}
+.checkoutStep .checkoutStepItem.active:after {
+  background: #2b98ed;
+}
+
+.customInput {
+  display: block;
+  padding: 10px 15px;
+  border: 1px #DDD solid;
+  border-radius: 10px;
+  width: 100%;
+}
+.customInput:focus {
+  outline: none;
+  border-color: #BBB;
+}
+
+.alertContent {
+  color: #de6319;
+  background: #fffcfc;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-weight: 500;
+  border: 1px #df6319 solid;
+}
+
+.customForm {
+  position: relative;
+  height: 55px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  padding-left: 70px;
+  margin-bottom: 20px;
+}
+.customForm img {
+  height: 16px;
+  position: absolute;
+  top: 19px;
+  left: 27px;
+  opacity: 0.5;
+}
+.customForm input {
+  display: block;
+  height: 55px;
+  border: none;
+  width: 100%;
+  background: none;
+  font-weight: 500;
+}
+.customForm input::placeholder {
+  color: #BBB;
+}
+.customForm input:focus {
+  outline: none;
+}
+.customForm select {
+  display: block;
+  height: 55px;
+  border: none;
+  width: calc(100% - 10px);
+  background: none;
+  font-weight: 500;
+}
+.customForm select::placeholder {
+  color: #BBB;
+}
+.customForm select:focus {
+  outline: none;
+}
+
+.customFormTextarea {
+  border-radius: 20px;
+  height: 100px;
+}
+.customFormTextarea textarea {
+  display: block;
+  height: 55px;
+  border: none;
+  width: 100%;
+  background: none;
+  font-weight: 500;
+  padding-top: 13px;
+}
+.customFormTextarea textarea::placeholder {
+  color: #BBB;
+}
+.customFormTextarea textarea:focus {
+  outline: none;
+}
+
+.customForm.formNoImage {
+  padding-left: 20px;
+}
+.customForm.formNoImage img {
+  display: none;
+}
+
+.fb-bg {
+  background: #3b5998;
+  border-color: #3b5998;
+}
+.fb-bg:hover {
+  opacity: 0.92;
+  border-color: #3b5998;
+  background: #3b5998;
+}
+.fb-bg:focus {
+  box-shadow: none;
+}
+
+.tw-bg {
+  background: #1da1f2;
+  border-color: #1da1f2;
+}
+.tw-bg:hover {
+  opacity: 0.92;
+  border-color: #1da1f2;
+  background: #1da1f2;
+}
+.tw-bg:focus {
+  box-shadow: none;
+}
+
+.g-bg {
+  background: #ea4335;
+  border-color: #ea4335;
+}
+.g-bg:hover {
+  opacity: 0.92;
+  border-color: #ea4335;
+  background: #ea4335;
+}
+.g-bg:focus {
+  box-shadow: none;
+}
+
+agm-map {
+  height: 400px;
+}
+
+.btn-icon {
+  height: 17px;
+  display: inline-block;
+  margin-right: 6px;
+  position: relative;
+  top: -2px;
+}
+
+.navButtonLabel {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  right: 0;
+}
+
+.openCart:hover .navButtonLabel {
+  color: #2b98ed;
+}
+.openCart:hover .btn-icon {
+  filter: brightness(0) invert(1);
+}
+
+.productDescription {
+  min-height: 85px;
+}
+
+.prListItem {
+  cursor: pointer;
+}
+
+.bgLoader {
+  background: #FFF;
+  position: relative;
+  overflow: hidden;
+}
+.bgLoader:before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #EEE;
+  z-index: 0;
+}
+@keyframes bannerLoader {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.swal2-container {
+  left: 0 !important;
+  top: 0 !important;
+}
+
+.swal2-header {
+  text-align: left !important;
+  align-items: flex-start !important;
+}
+
+.swal2-content {
+  text-align: left !important;
+}
+
+.swal2-actions {
+  justify-content: flex-start !important;
+  display: none !important;
+}
+
+.swal2-show {
+  padding-left: 150px !important;
+  overflow: hidden !important;
+}
+
+.swal2-icon {
+  left: 33px !important;
+  top: 12px !important;
+  position: absolute !important;
+  margin: 0 !important;
+}
+
+.swal2-container.swal2-shown {
+  background: transparent !important;
+}
+
+.swal2-container {
+  padding: 20px !important;
+  align-items: flex-end !important;
+  justify-content: flex-start !important;
+}
+
+.swal2-popup {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important;
+  margin: 0 !important;
+}
+
+.otpCouter {
+  color: #2b98ed;
+  font-weight: 500;
+}
+
+.selectListHolder {
+  background: #fff;
+  padding: 0 10px;
+  z-index: 100000;
+  position: relative;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  max-height: 300px;
+  overflow: auto;
+}
+
+.existingRecipientChildListHolder {
+  padding: 10px;
+}
+
+.existingRecipientChildListHolder p {
+  margin: 0;
+}
+
+.accordion .card-header button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  color: #444;
+  transition: all 0.2s;
+}
+
+.accordion .card-header button:hover, .accordion .card-header button:focus {
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.offerLink a {
+  display: block;
+}
+
+.offerLink img {
+  width: 100%;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    padding-top: 226px;
+  }
+}
+@media screen and (max-width: 900px) {
+  body {
+    padding-top: 247px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .headerNav {
+    padding: 0;
+  }
+
+  .customForm {
+    height: 40px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    padding-left: 45px;
+  }
+  .customForm img {
+    top: 12px;
+    left: 17px;
+  }
+  .customForm input {
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  agm-map {
+    height: 200px;
+  }
+
+  .prListHeader {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 580px) {
+  body {
+    padding-top: 70px;
+  }
+}
+.ng-autocomplete {
+  width: 100% !important;
+}
+
+.autocomplete-container {
+  box-shadow: none !important;
+}
+
+.redPrice {
+  font-style: normal;
+  color: #a70000;
+}
+
+.autocomplete-container .input-container input {
+  display: block !important;
+  width: 100% !important;
+  height: 50px !important;
+  border-radius: 100px !important;
+  border: 1px #DDD solid !important;
+  text-indent: 50px !important;
+}
+
+.offerHolder {
+  background: #f1f1f1;
+  padding: 0 0 0;
+}
+.offerHolder a.offerLink {
+  display: block;
+  margin-top: -150px;
+}
+.offerHolder a.offerLink img {
+  width: 100%;
+}
+.offerHolder .appImage {
+  width: 100%;
+  position: relative;
+  bottom: -50px;
+}
+.offerHolder h1 {
+  font-size: 35px;
+}
+.offerHolder .appBadge {
+  display: inline-block;
+  margin-right: 10px;
+  transition: all 0.1s;
+}
+.offerHolder .appBadge:hover {
+  transform: scale(1.05);
+}
+.offerHolder .appBadge img {
+  height: 50px;
+}
+.offerHolder .sendLinkHolder {
+  position: relative;
+  border-radius: 100px;
+  border: 1px #DDD solid;
+  padding: 5px;
+  background: #FFF;
+  padding-right: 120px;
+  overflow: hidden;
+}
+.offerHolder .sendLinkHolder input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: none;
+  padding-left: 10px;
+}
+.offerHolder .sendLinkHolder input:focus {
+  outline: none;
+}
+.offerHolder .sendLinkHolder button {
+  height: 50px;
+  color: #2b98ed;
+  background: #FFF;
+  border: 1px #2b98ed solid;
+  border-radius: 100px;
+  width: 110px;
+  position: absolute;
+  top: 5px;
+  right: 7px;
+  transition: all 0.2s;
+}
+.offerHolder .sendLinkHolder button:focus {
+  outline: none;
+}
+.offerHolder .sendLinkHolder button:hover {
+  color: #FFF;
+  background: #2b98ed;
+  border-color: #2b98ed;
+}
+
+.prContactPanel {
+  background: #ededed;
+  padding: 15px 15px 15px 70px;
+  position: relative;
+  border-radius: 10px;
+}
+.prContactPanel .prContactPanelHeader {
+  margin: 0;
+  color: #888;
+}
+.prContactPanel .prContactSubInfo {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #525252;
+}
+.prContactPanel .prContactInfo {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: #a70000;
+}
+.prContactPanel .prContactImg {
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 20px;
+  top: calc(50% - 20px);
+  background-size: contain;
+  background-position: center;
+}
+@media screen and (max-width: 768px) {
+  .prContactPanel .prContactInfo {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  .prContactPanel .prContactPanelHeader {
+    font-size: 13px;
+  }
+  .prContactPanel .prContactImg {
+    top: 16px !important;
+  }
+}
+
+.contactInfoSm .prContactPanel {
+  padding: 15px 15px 15px 85px;
+}
+.contactInfoSm .prContactPanel .prContactImg {
+  height: 50px;
+  width: 50px;
+  top: calc(50% - 25px);
+}
+.contactInfoSm .prContactPanel .prContactSubInfo {
+  font-size: 14px;
+}
+.contactInfoSm .prContactPanel .prContactInfo {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .offerHolder {
+    text-align: center;
+  }
+  .offerHolder .appImage {
+    width: 50%;
+    display: inline-block;
+  }
+  .offerHolder h1 {
+    margin-top: 40px;
+  }
+  .offerHolder .appBadge img {
+    height: 35px;
+    margin: 0;
+  }
+}
+.freeDelProgressHolder {
+  background: #f9f9f9;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: 500;
+  text-align: center;
+  border: 1px #e2e2e2 solid;
+}
+.freeDelProgressHolder .fdHdr {
+  margin-bottom: 5px;
+}
+.freeDelProgressHolder .freeDelProgressIn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.freeDelProgressHolder .freeDelProgressIn div {
+  font-size: 13px;
+  color: #777;
+}
+.freeDelProgressHolder .freeDelProgressIn div.freeDelProgressBar {
+  flex-grow: 1;
+  padding: 3px;
+  background: #FFF;
+  height: 18px;
+  border-radius: 100px;
+  border: 1px #DDD solid;
+  margin: 0 10px;
+}
+.freeDelProgressHolder .freeDelProgressIn div.freeDelProgressBar span {
+  display: block;
+  height: 10px;
+  background: #2b98ed;
+  border-radius: 100px;
+}
+
+.sideTabs {
+  height: 100%;
+  background: #f6f6f6;
+  padding: 20px 0 20px 20px;
+}
+.sideTabs a {
+  display: block;
+  padding: 17px 20px;
+  margin-bottom: 5px;
+  position: relative;
+  color: #333333 !important;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.sideTabs a:hover {
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+.sideTabs a.active {
+  background: #ffffff;
+  color: #2b98ed !important;
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.sideTabs a.active:hover {
+  letter-spacing: 0px;
+  text-decoration: none;
+}
+
+.prContactPanel .prContactInfo a {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #a70000;
+  margin-left: 10px;
+  position: relative;
+  top: 3px;
+}
+
+a.black {
+  color: #000 !important;
+}
+
+a.white {
+  color: #fff !important;
+}
+
+.failedAlertIn {
+  padding: 20px 20px 20px 140px;
+  background: #FFF9F9;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.failedAlertIcon {
+  background-image: url("/assets/images/caution.png");
+  width: 100px;
+  height: 100px;
+  background-color: #FFF;
+  background-position: center;
+  background-size: 50%;
+  border-radius: 100px;
+  background-repeat: no-repeat;
+  border: 2px #f26565 solid;
+  position: absolute;
+  left: 36px;
+  top: 13px;
+}
+
+.productHeaderSm {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .productHeaderSm {
+    display: block !important;
+  }
+}
+
+app-story > .container {
+  background: #FFF;
+}
+
+.alignCenter {
+  display: flex;
+  align-items: center;
+}
+
+.row10 {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.row10 > div {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.row5 {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.row5 > div {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.row2 {
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.row2 > div {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.row1 {
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+.row1 > div {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.row3 {
+  margin-left: -3px;
+  margin-right: -3px;
+}
+
+.row3 > div {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.row4 {
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.row4 > div {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.row0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.row0 > div {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .addCheckOutBtns {
+    font-size: 13px;
+  }
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+@keyframes glLoaderAnim {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.glWeb {
+  width: 100%;
+  display: block;
+  animation: glLoaderAnim 4s infinite;
+}
+@media screen and (max-width: 576px) {
+  .glWeb {
+    display: none;
+  }
+}
+
+.glApp {
+  width: 100%;
+  display: none;
+  animation: glLoaderAnim 4s infinite;
+}
+@media screen and (max-width: 576px) {
+  .glApp {
+    display: block;
+  }
+}
+
+.slotTable {
+  border: 1px solid #a9a9a9;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.slotTable th {
+  border: 1px solid #a9a9a9;
+  padding: 7px;
+  background-color: #138ae6;
+  color: #fff;
+}
+
+.slotTable td {
+  border: 1px solid #a9a9a9;
+  padding: 3px;
+}
+
+.slotTable td.slotTime {
+  border: 1px solid #a9a9a9;
+  padding: 5px;
+}
+
+.shareReferCaller {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #2b98ed;
+  padding: 8px 15px;
+  color: #fff;
+  border-radius: 30px 30px 0 0;
+  z-index: 100;
+  transition: all 0.2s ease;
+}
+.shareReferCaller:hover {
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 15px 12px 18px;
+}
+.shareReferCaller img {
+  width: 23px;
+  filter: invert(1);
+}
+
+.shareReferHolder {
+  position: fixed;
+  bottom: 0;
+  right: -450px;
+  width: 400px;
+  padding: 25px 20px;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+  background-color: #fff;
+  z-index: 9999;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+}
+@media screen and (max-width: 576px) {
+  .shareReferHolder {
+    width: 320px;
+    right: -350px;
+  }
+}
+.shareReferHolder img.refIcon {
+  width: 40px;
+  display: block;
+  margin: 0 auto;
+}
+.shareReferHolder h4 {
+  font-size: 24px;
+  color: #2b98ed;
+  margin: 10px 0;
+}
+.shareReferHolder p {
+  font-size: 17px;
+  color: #888;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.shareReferHolder .refercodeWrap {
+  position: relative;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+.shareReferHolder .refercodeWrap .refereCode {
+  display: inline-block;
+  padding: 10px 10px;
+  background: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2b98ed;
+  border-radius: 8px;
+  border: 1px solid #2b98ed;
+  margin: 15px 0;
+  width: 100%;
+}
+.shareReferHolder .refercodeWrap .refereCode:focus {
+  outline: none;
+}
+.shareReferHolder .refercodeWrap .copy {
+  font-size: 14px;
+  border: 0;
+  background-color: transparent;
+  color: #fff;
+  padding: 4px 7px;
+  border-radius: 5px;
+  position: absolute;
+  top: 21px;
+  right: 4px;
+}
+.shareReferHolder .refercodeWrap .copy:focus, .shareReferHolder .refercodeWrap .copy :hover {
+  outline: none;
+  border: none;
+}
+.shareReferHolder .refercodeWrap .copy img {
+  width: 30px;
+}
+.shareReferHolder .shareCode {
+  background-color: #2b98ed;
+  color: #fff;
+  margin-top: 10px;
+  padding: 7px 30px;
+}
+.shareReferHolder .shareCode:hover {
+  outline: none;
+  background-color: #fff;
+  color: #2b98ed;
+}
+.shareReferHolder .rightCloseArrow {
+  display: inline-block;
+  position: absolute;
+  right: 7px;
+  top: 7px;
+}
+.shareReferHolder .rightCloseArrow img {
+  width: 35px;
+}
+
+.shareReferHolder.showRef {
+  right: 0;
+}

@@ -1,0 +1,47 @@
+.offerHolder {
+  background: #f1f1f1;
+  padding: 0 0 0;
+  overflow: hidden;
+}
+.offerHolder a.offerLink {
+  display: block;
+}
+.offerHolder a.offerLink img {
+  width: 100%;
+}
+.offerHolder .appImage {
+  width: 100%;
+  position: relative;
+  bottom: -50px;
+}
+.offerHolder h1 {
+  font-size: 40px;
+}
+.offerHolder .appBadge {
+  display: inline-block;
+  margin-right: 10px;
+  transition: all 0.1s;
+}
+.offerHolder .appBadge:hover {
+  transform: scale(1.05);
+}
+.offerHolder .appBadge img {
+  height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .offerHolder {
+    text-align: center;
+  }
+  .offerHolder .appImage {
+    width: 70%;
+    display: inline-block;
+  }
+  .offerHolder h1 {
+    margin-top: 40px;
+  }
+  .offerHolder .appBadge img {
+    height: 35px;
+    margin: 0;
+  }
+}
